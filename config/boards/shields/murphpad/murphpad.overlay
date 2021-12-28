@@ -39,7 +39,7 @@
 		a-gpios = <&pro_micro_d 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		resolution = <4>;
-		status = "disabled";
+		status = "enabled";
 	};
 
 	encoder_2: encoder_2 {
@@ -48,7 +48,7 @@
 		a-gpios = <&pro_micro_d 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		b-gpios = <&pro_micro_d 0 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		resolution = <4>;
-		status = "disabled";
+		status = "enabled";
 	};
 
 };
